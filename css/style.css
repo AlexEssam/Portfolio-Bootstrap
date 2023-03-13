@@ -140,6 +140,12 @@ left: -30px;
     background-color: #292c35;
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+   align-items: center;
+}
+
 .navbar .navbar-brand {
     color: var(--main-color);
     font-size: 30px;
